@@ -1,22 +1,21 @@
-# Bot Discord
+# Bot completo de vendas
 
 creator: x64thebuilder/.200021
 
 ## Setup
 
-1. Copie `.env.example` para `.env` e preencha:
-   - `DISCORD_TOKEN`
-   - `DISCORD_CLIENT_ID`
-   - `OWNER_ID`
-   - `GUILD_ID`
+1. Preencha o `.env`
 2. `npm install`
-3. `npm run deploy`
 4. `npm start`
 
-## Estrutura
+## Features
 
-- `src/` — codigo do bot
-- `data/` — database local (vazia por padrao, preenchida em runtime)
-- `assets/` — imagens/fontes
-- `Emojis/` — emojis sincronizados com a aplicacao
-- `scripts/` — utilitarios
+- Sistema de Vendas
+- Sistema de Ticket
+- Sistema de Middleman
+- Sistema de Robux
+- Sistema de sorteios
+- Formas de pagamento manual/automatico
+- `Pix` , `Mercado Pago` , `Efi Bank` , `Stripe`
+- isso e mais, pode fazer oque quiser com o bot `pelo menos deixe os creditos em alguma parte visivel do bot`
+- `Bot feito por mim, nao e source vazada.`
