@@ -1,0 +1,9 @@
+{
+  "config": {
+    "enabled": false,
+    "amountPerInvite": 0
+  },
+  "pending": {},
+  "paid": {},
+  "earnings": {}
+}

@@ -1,0 +1,188 @@
+{
+  "channels": {
+    "generalLogs": null,
+    "moderationLogs": null,
+    "messageLogs": null,
+    "middlemanLogs": null,
+    "inviteLogs": null,
+    "systemLogs": null,
+    "productRequestLogs": null,
+    "verificationLogs": null
+  },
+  "roles": {
+    "admin": null,
+    "autoRole": null,
+    "middleman": null,
+    "trader": null
+  },
+  "permissions": {
+    "users": []
+  },
+  "payments": {
+    "pix": {
+      "enabled": false,
+      "key": null,
+      "type": "email"
+    },
+    "mercadoPago": {
+      "enabled": false,
+      "accessToken": null,
+      "payerEmail": null
+    },
+    "efi": {
+      "enabled": false,
+      "clientId": null,
+      "clientSecret": null,
+      "certificatePath": null,
+      "certificatePassphrase": null,
+      "pixKey": null,
+      "pendingCertificateUserId": null,
+      "pendingCertificateChannelId": null,
+      "pendingCertificateAt": null
+    },
+    "stripe": {
+      "enabled": false,
+      "secretKey": null,
+      "webhookSecret": null,
+      "currency": "brl"
+    }
+  },
+  "suggestions": {
+    "enabled": true,
+    "channelId": null,
+    "autoThread": true
+  },
+  "customColor": null,
+  "botOwnerId": null,
+  "moderation": {
+    "violations": [],
+    "restorationRequested": false,
+    "restorationUsed": false
+  },
+  "middleman": {
+    "enabled": false,
+    "mode": "manual",
+    "color": 16777215,
+    "description": "Solicite um middleman seguro para sua trade PIX.",
+    "banner": null,
+    "thumbnail": null,
+    "fees": "default",
+    "feeRules": [
+      {
+        "above": 2.5,
+        "type": "fixed",
+        "value": 1
+      },
+      {
+        "above": 100,
+        "type": "fixed",
+        "value": 2.15
+      },
+      {
+        "above": 200,
+        "type": "fixed",
+        "value": 4.3
+      },
+      {
+        "above": 400,
+        "type": "fixed",
+        "value": 6.8
+      },
+      {
+        "above": 700,
+        "type": "percent",
+        "value": 1.2
+      }
+    ],
+    "accountExtraFee": 4,
+    "vouchChannel": null,
+    "bigVouchChannel": null
+  },
+  "storeClosed": false,
+  "storeHours": {
+    "enabled": false,
+    "open": "09:00",
+    "close": "18:00",
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "timezone": "America/Sao_Paulo"
+  },
+  "sales": {
+    "cartLogsEnabled": true,
+    "closed": false,
+    "receiptMode": "container",
+    "channels": {
+      "privateLogs": null,
+      "publicLogs": null,
+      "orderLogs": null,
+      "paymentLogs": null,
+      "confirmedLogs": null,
+      "approvedLogs": null,
+      "deliveredLogs": null,
+      "cancelledLogs": null,
+      "errorLogs": null,
+      "cartsCategory": null,
+      "feedbackChannel": null,
+      "purchaseLogs": null
+    },
+    "roles": {
+      "staff": null,
+      "customer": null
+    }
+  },
+  "reestock": {
+    "channelId": null,
+    "mode": "container"
+  },
+  "tickets": {
+    "channels": {
+      "logs": null
+    },
+    "roles": {
+      "support": null
+    }
+  },
+  "automation": {
+    "autoMessages": {
+      "enabled": false,
+      "messages": {}
+    },
+    "autoReact": {
+      "channels": {}
+    },
+    "repost": {
+      "enabled": false,
+      "time": "06:00",
+      "nuke": false,
+      "systems": {
+        "sales": true,
+        "middleman": false,
+        "tickets": false
+      }
+    }
+  },
+  "vorkbux": {
+    "pricePer1000": 0,
+    "minRobux": 100,
+    "maxRobux": 10000,
+    "group": {
+      "url": null,
+      "pricePer1000": 0,
+      "stock": 0
+    },
+    "purchase": {
+      "mode": "container",
+      "title": null,
+      "description": null,
+      "color": 16777215,
+      "banner": null,
+      "thumbnail": null,
+      "channelId": null
+    }
+  }
+}

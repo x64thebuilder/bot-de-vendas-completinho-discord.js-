@@ -1,0 +1,14 @@
+# deps
+node_modules/
+
+# segredos — NUNCA suba isso
+.env
+
+# cache / temporarios
+.deps_cache
+.shardcloud
+*.zip
+*.log
+
+# backups locais do bot
+data/backups/

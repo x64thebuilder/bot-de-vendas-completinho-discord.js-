@@ -1,0 +1,17 @@
+{
+  "config": {
+    "enabled": false,
+    "channelId": null
+  },
+  "users": {},
+  "total": 0,
+  "daily": {
+    "date": null,
+    "count": 0
+  },
+  "weekly": {
+    "week": null,
+    "count": 0
+  },
+  "links": {}
+}

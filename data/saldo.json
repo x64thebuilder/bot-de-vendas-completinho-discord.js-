@@ -1,0 +1,12 @@
+{
+  "config": {
+    "enabled": false,
+    "bonusPercent": 0,
+    "bonusTiers": [],
+    "cashbackPercent": 0,
+    "referralBonus": 0
+  },
+  "balances": {},
+  "transactions": {},
+  "topups": {}
+}

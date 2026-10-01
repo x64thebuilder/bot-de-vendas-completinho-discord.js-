@@ -1,0 +1,22 @@
+{
+  "bot": {},
+  "require": {
+    "cart": false,
+    "ticket": false
+  },
+  "panel": {
+    "title": "Verificacao de Membro",
+    "description": "Clique no botao abaixo e autorize com sua conta Discord para se verificar no servidor.",
+    "color": 16777215,
+    "banner": null,
+    "thumbnail": null,
+    "buttonLabel": "Verificar",
+    "buttonStyle": 2,
+    "buttonEmoji": null,
+    "channelId": null
+  },
+  "verified": {},
+  "recovery": {
+    "history": []
+  }
+}
