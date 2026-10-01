@@ -80,3 +80,4 @@ Desenvolvido por **x64thebuilder / .200021**.
 O projeto pode ser utilizado e modificado livremente, desde que os créditos ao desenvolvedor original sejam mantidos.
 
 Se este projeto foi útil para você, considere deixar uma estrela no repositório.
+`Sim, fiz esse README com IA`
